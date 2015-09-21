@@ -1,0 +1,167 @@
+﻿body {
+    font-family: 'Raleway', sans-serif;
+    color: #383120;
+    padding-top: 70px;
+    background-color: #f3c441;
+}
+
+.content-body
+{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Bootstrap overrides */
+.navbar-brand
+{
+    font-weight: 900;
+}
+
+.nav
+{
+    font-size: larger;
+    font-weight:bold;
+}
+
+.navbar
+{
+    background-color: #f3c441;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+table.tableizer-table {
+    border: 0px solid #CCC;
+    font-size: 1.0em;
+    margin: auto;
+}
+
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    border: 0px solid #ccc;
+}
+
+.tableizer-table th {
+    background-color: #104E8B;
+    color: #FFF;
+    font-weight: bold;
+}
+.creditLeft {
+    text-align: left;
+    vertical-align: top;
+}
+
+.creditRight {
+    text-align: right;
+}
+
+.creditBold {
+    font-weight: bold;
+}
+
+.headshot  
+{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.headshotImg 
+{
+    width: 150px;
+    height: 200px;
+}
+
+
+.still 
+{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.stillImg 
+{
+    width: 200px;
+    height: 150px;
+}
+
+.bioText {
+    padding: 20px, 20px, 20px, 0px;
+}
+
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url(../img/logob.png) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  /*
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+  background-size: 80%;
+}
+
+#trailer {
+}
+
+#credits, #crew, #cast {
+  background-color: #383120;
+  color: #ffffff;
+}
+
+#directorsStatement {
+  background: url(../img/TheGift_Production_Still_01.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#directorsStatement .panel {
+  opacity:1;
+}
+
+footer {
+  padding: 20px 0;
+}
